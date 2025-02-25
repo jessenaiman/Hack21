@@ -2,6 +2,9 @@
 """Main game logic."""
 
 import random
+import pygame
+
+
 from map import Map
 from player import Player
 from monster import Monster
@@ -9,6 +12,7 @@ from item import create_health_potion, create_strength_boost
 from ui import HealthBar, MessageLog, InventoryScreen
 from utils import calculate_fov
 from constants import *
+from sound import SoundManager
 
 class Game:
     """Manages the game state and mechanics."""
