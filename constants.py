@@ -11,7 +11,7 @@ TILE_SIZE = 16
 MAP_WIDTH = 50
 MAP_HEIGHT = 30
 
-# Colors
+# Colors for pixel art and UI
 COLOR_BLACK = (0, 0, 0)
 COLOR_WHITE = (255, 255, 255)
 COLOR_GRAY = (100, 100, 100)
@@ -19,6 +19,7 @@ COLOR_DARK_GRAY = (50, 50, 50)
 COLOR_RED = (255, 0, 0)
 COLOR_GREEN = (0, 255, 0)
 COLOR_YELLOW = (255, 255, 0)
+COLOR_BLUE = (0, 0, 255)  # Appearance options
 
 # Tile types
 TILE_FLOOR = 0
@@ -34,5 +35,8 @@ STAIRS_DOWN_CHAR = '>'
 STAIRS_UP_CHAR = '<'
 
 # Game states
+STATE_MENU = 'menu'
+STATE_CHARACTER_CREATION = 'character_creation'
 STATE_PLAYING = 'playing'
 STATE_INVENTORY = 'inventory'
+STATE_DEAD = 'dead'
